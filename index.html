@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vamadi</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<!-- ----------HEADER START---------- -->
+		<header>
+			<div class="header-top">
+				<div class="container">
+					<div class="flex-row-between">
+						<div class="mobile-menu-logo">
+							<img src="img/icons/burger.svg" alt="" class="burger mr-8">
+							<img src="img/logo_vamadi.svg" alt="">
+						</div>
+						<nav class="header-links-nav">
+							<ul class="header-links">
+								<li><a href="#" class="header-link header-link1"><img src="img/icons/location-icon.svg" alt="" class="mr-8">Сочи</a></li>
+								<li><a href="#" class="header-link ml-16">Магазины</a></li>
+								<li><a href="#" class="header-link ml-16">Помощь</a></li>
+								<li><a href="#" class="header-link ml-16">Реклама</a></li>
+								<li><a href="#" class="header-link ml-16">Размещение</a></li>
+							</ul>
+						</nav>
+						<a href="#" class="header-button"><img src="img/icons/white-plus.svg" alt="" class="mr-8">Подать объявление</a>
+						<a href="#" class="mobile-header-add"><img src="img/icons/add-mobile.svg" alt=""></a>
+					</div>
+				</div> <!-- CONTAINER-->
+			</div> <!-- HEADER TOP-->
+			<div class="header-bottom py-20">
+				<div class="container">
+					<div class="flex-row-between">
+						<div class="horiz-col">
+							<a href="#" class="button red-button mr-8 catalog-btn">Каталог</a>
+							<a href="#" class="button outline-button request-btn">Заявка на подбор запчасти</a>
+						</div>
+						<div class="mobile-header-search">
+							<select name="category" id="category">
+								<option value="all">Все категории</option>
+								<option value="wheels">Подвеска колёс</option>
+								<option value="brake">Тормозная система</option>
+							</select>
+							<input type="text" placeholder="Название товара" name="search">
+						</div>
+						<div class="horiz-col">
+							<div class="header-shopping-cart-wrapper">
+								<img src="img/icons/shopping-cart.svg" alt="">
+							</div>
+							<div class="horiz-col ml-48 header-user">
+								<img src="img/icons/user.svg" alt="" class="mr-8">
+								<span>Пользователь</span>
+							</div>
+						</div>
+					</div> <!-- ROW-->
+				</div> <!-- CONTAINER-->
+			</div> <!-- HEADER BOTTOM-->
+		</header>
+		<!-- ----------HEADER END---------- -->
+		<!-- ----------MAIN START---------- -->
+		<main>
+			<div class="hero">
+				<div class="container">
+					<p class="hero-title">Поиск б/у автозапчастей</p>
+					<p class="hero-subtitle mb-36">Более  1 000 000 запчастей и 500 продавцов</p>
+					<div class="form-container wrap">
+						<div class="form-element">
+							<label class="form-label">Марка</label>
+							<select name="brand" id=""></select>
+						</div>
+						<div class="form-element">
+							<label class="form-label form-label-mobile-1col">Модель</label>
+							<select name="brand" id=""></select>
+						</div>
+						<div class="form-element">
+							<label class="form-label form-label-mobile-2cols">Модификация модели</label>
+							<select name="brand" id=""></select>	
+						</div>
+						<div class="form-element">
+							<label class="form-label mt-16">Название запчасти</label>
+							<select name="brand" id=""></select>
+						</div>
+						<div class="form-element">
+							<label class="form-label mt-16">Оригинальный номер</label>
+							<input type="text" placeholder="Например: 3434343" name="originalnumber" id="originalnumber">
+						</div>
+						<div class="form-element self form-button mt-16">
+							<button type="submit">Подобрать</button>
+						</div>
+						<div class="horiz-col mt-16">
+							<button type="reset" class="form-antibutton">Сбросить все</button>
+							<a href="#">Расширенные фильтры</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="brand-search">
+				<div class="container">
+					<div class="flex-row-between mt-124 mb-36 brand-search-mobile-margin">
+						<div class="brand-title">
+							<h2>Поиск по марке</h2>
+							<span class="mr-8 ml-48 brand-search-span-mobile-hide">Легковые</span><span class="brand-search-span-mobile-hide">Грузовые</span>
+						</div>
+							<a href="#" class="button outline-button px-3 mobile-replace-btn">Все марки</a>
+					</div>
+					<div class="brands-flex">
+							<ul>
+								<li><a href="#" class="brand-search-link">Audi</a></li>
+								<li><a href="#" class="brand-search-link">Chery</a></li>
+								<li><a href="#" class="brand-search-link">Chevrolet</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" class="brand-search-link">Daewoo</a></li>
+								<li><a href="#" class="brand-search-link">Fiat</a></li>
+								<li><a href="#" class="brand-search-link">Ford</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" class="brand-search-link">Honda</a></li>
+								<li><a href="#" class="brand-search-link">Hyundai</a></li>
+								<li><a href="#" class="brand-search-link">Lexus</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" class="brand-search-link">Lifan</a></li>
+								<li><a href="#" class="brand-search-link">Mazda</a></li>
+								<li><a href="#" class="brand-search-link">Mitsubishi</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" class="brand-search-link">Nissan</a></li>
+								<li><a href="#" class="brand-search-link">Opel</a></li>
+								<li><a href="#" class="brand-search-link">Peugeot</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" class="brand-search-link">Porsche</a></li>
+								<li><a href="#" class="brand-search-link">Renault</a></li>
+								<li><a href="#" class="brand-search-link">Seat</a></li>
+							</ul>
+							<ul>
+								<li><a href="#" class="brand-search-link">Skoda</a></li>
+								<li><a href="#" class="brand-search-link">Subaru</a></li>
+								<li><a href="#" class="brand-search-link">Toyota</a></li>
+							</ul>
+					</div>
+					<div class="mobile-all-btn">
+						<a href="#" class="button outline-button px-3">Все марки</a>
+					</div>
+				</div>
+			</div>
+			<div class="category-search">
+				<div class="container">
+					<div class="flex-row-between mt-72 mb-36">
+						<h2>Поиск по категориям</h2>
+						<a href="#" class="button outline-button px-3 mobile-replace-btn">Все категории</a>
+					</div>
+					<div class="grid-row">
+						<div class="category-card category-card1">
+							<h4 class="mb-16">Детали для ТО</h4>
+							<ul>
+								<li><a href="">Масло моторное</a></li>
+								<li><a href="">Антифриз</a></li>
+								<li><a href="">Свеча зажигания</a></li>
+								<li><a href="">Свеча накаливания</a></li>
+							</ul>
+							<a href="#" class="mt-36">Больше</a>
+						</div>
+						<div class="category-card category-card2">
+							<h4 class="mb-16">Подвеска колёс</h4>
+							<ul>
+								<li><a href="">Дисковые тормоза</a></li>
+								<li><a href="">Барабанные тормоза</a></li>
+								<li><a href="">Суппорт дисковый</a></li>
+								<li><a href="">ABS система</a></li>
+							</ul>
+							<a href="#" class="mt-36">Больше</a>
+						</div>
+						<div class="category-card category-card3">
+							<h4 class="mb-16">Тормозная система</h4>
+							<ul>
+								<li><a href="">Масло моторное</a></li>
+								<li><a href="">Антифриз</a></li>
+								<li><a href="">Свеча зажигания</a></li>
+								<li><a href="">Свеча накаливания</a></li>
+							</ul>
+							<a href="#" class="mt-36">Больше</a>
+						</div>
+						<div class="category-card category-card4">
+							<h4 class="mb-16">Сопутствующие товары</h4>
+							<ul>
+								<li><a href="">Масло моторное</a></li>
+								<li><a href="">Антифриз</a></li>
+								<li><a href="">Свеча зажигания</a></li>
+								<li><a href="">Свеча накаливания</a></li>
+							</ul>
+							<a href="#" class="mt-16">Больше</a>
+						</div>
+						<div class="category-card category-card5">
+							<h4 class="mb-16">Детали для ТО</h4>
+							<ul>
+								<li><a href="">Масло моторное</a></li>
+								<li><a href="">Антифриз</a></li>
+								<li><a href="">Свеча зажигания</a></li>
+								<li><a href="">Свеча накаливания</a></li>
+							</ul>
+							<a href="#" class="mt-36">Больше</a>
+						</div>
+						<div class="category-card category-card6">
+							<h4 class="mb-16">Детали для ТО</h4>
+							<ul>
+								<li><a href="">Масло моторное</a></li>
+								<li><a href="">Антифриз</a></li>
+								<li><a href="">Свеча зажигания</a></li>
+								<li><a href="">Свеча накаливания</a></li>
+							</ul>
+							<a href="#" class="mt-36">Больше</a>
+						</div>
+					</div>
+					<div class="mobile-all-btn">
+						<a href="#" class="button outline-button px-3">Все категории</a>
+					</div>
+				</div>
+			</div>
+			<div class="new-arrivals mt-96 py-72">
+				<div class="container">
+					<div class="new-arrivals-title flex-row-between mb-36">
+						<h2>Новое поступление</h2>
+						<div>
+							<span><a href="#">Шины</a></span>
+							<span class="ml-16"><a href="#">Диски</a></span>
+							<span class="ml-16"><a href="#">Аккумуляторы</a></span>
+							<span class="ml-16"><a href="#">Аксессуары</a></span>
+						</div>
+					</div>
+					<div class="new-arrivals-cards flex-row-between">
+						<img src="img/icons/arrow-lg-left.svg" alt="">
+						<div class="new-arrival-card">
+							<img src="img/newitem1.png" alt="">
+							<h5>Подшипник ступицы задней FEBI 3115 Opel</h5>
+							<div class="flex-row-between mt-16">
+								<div>
+									<span class="new-arrival-card-price mr-8">1450 ₽</span>
+									<span class="new-arrival-card-old-price">1650 ₽</span>
+								</div>
+								<span class="new-arrival-card-like"><img src="img/icons/heart.svg" alt=""></span>
+							</div>
+						</div>
+						<div class="new-arrival-card new-arrival-card2">
+							<img src="img/newitem2.png" alt="">
+							<h5>Accelera 185/60 R15, б/у летние, легковые</h5>
+							<div class="flex-row-between mt-16">
+								<span class="new-arrival-card-price">2450 ₽</span>
+								<span class="new-arrival-card-like"><img src="img/icons/heart.svg" alt=""></span>
+							</div>
+						</div>
+						<div class="new-arrival-card new-arrival-card3">
+							<img src="img/newitem3.png" alt="">
+							<h5>Диск литой к Audi A6 C6, 2006</h5>
+							<div class="flex-row-between mt-16">
+								<span class="new-arrival-card-price">1600 ₽</span>
+								<span class="new-arrival-card-like"><img src="img/icons/heart.svg" alt=""></span>
+							</div>
+						</div>
+						<div class="new-arrival-card new-arrival-card4">
+							<img src="img/newitem4.png" alt="">
+							<h5>Комплект сцепления для BMW X3 (E83) 3.0 i xRive</h5>
+							<div class="flex-row-between mt-16">
+								<span class="new-arrival-card-price">345 ₽</span>
+								<span class="new-arrival-card-like"><img src="img/icons/heart.svg" alt=""></span>
+							</div>
+						</div>
+						<img src="img/icons/arrow-lg-right.svg" alt="">
+					</div>
+					<div class="new-arrival-offers mt-72">
+						<div class="blue-offer offer">
+							<div class="offer-info">
+								<h3>Скидки на детали тормозной системы</h3>
+								<a href="#" class="button red-button">Подробнее</a>
+							</div>
+						</div>
+						<div class="red-offer offer">
+							<div class="offer-info">
+								<h3>Скидки на моторное масло</h3>
+								<span>до 50%</span>
+								<a href="#" class="button blue-button">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews">
+				<div class="container">
+					<div class="flex-row-between mt-72 mb-36">
+						<h2>Отзывы покупателей</h2>
+						<a href="#" class="button outline-button px-3 mobile-replace-btn">Все отзывы</a>
+					</div>
+					<div class="reviews-flex">
+						<div class="review">
+							<div class="flex-row-between">
+								<span>Александр</span>
+								<div>
+									<span>2020.01.12</span>
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/g_star.svg" alt="">
+									<img src="img/icons/g_star.svg" alt="">
+								</div>
+							</div>
+							<div>
+								<h5 class="mt-16 mb-8">Автозапчасти ваз</h5>
+								<p>Привезли механизм для дворников, за 2 недели. Качество отличное. Спасибо.</p>
+							</div>
+						</div>
+						<div class="review">
+							<div class="flex-row-between">
+								<span>Василий</span>
+								<div>
+									<span>2020.01.12</span>
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/g_star.svg" alt="">
+								</div>
+							</div>
+							<div>
+								<h5 class="mt-16 mb-8">Автозапчасти ваз</h5>
+								<p>Заказывал подшипник ступицы FEBI 3115 Opel VecA/KadE,  доставили через три дня. Товар отличного качества.</p>
+							</div>
+						</div>
+						<div class="review">
+							<div class="flex-row-between">
+								<span>Максим</span>
+								<div>
+									<span>2020.01.12</span>
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+									<img src="img/icons/y_star.svg" alt="">
+								</div>
+							</div>
+							<div>
+								<h5 class="mt-16 mb-8">Автозапчасти для Opel</h5>
+								<p>Очень довольны!!! 6.03 получили заказ. Быстро и как нам удобно. Рекомендуем.  Всё отлично работает.</p>
+							</div>
+						</div>
+					</div>
+					<div class="mobile-all-btn">
+						<a href="#" class="button outline-button px-3">Все отзывы</a>
+					</div>
+				</div>
+			</div>
+			<div class="our-numbers mt-96">
+				<div class="container">
+					<div class="numbers-flex">
+						<div class="number">
+							<img src="img/Numbers1.png" alt="">
+							<div>
+								<h3>4 Города</h3>
+								<p class="mt-16">Только актуальные предложения по Минску, Москве, Краснодару и Сочи</p>
+							</div>
+						</div>
+						<div class="number">
+							<img src="img/Numbers2.png" alt="">
+							<div>
+								<h3>345 Продавцов</h3>
+								<p class="mt-16">Предлагаем гибкие условия сотрудничества без вложений</p>
+							</div>
+						</div>
+						<div class="number">
+							<img src="img/Numbers3.png" alt="">
+							<div>
+								<h3>143 786 Запчастей</h3>
+								<p class="mt-16">Ищи предложение в своем городе, не считай дни доставки</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- ----------MAIN END---------- -->
+		<!-- ----------FOOTER START---------- -->
+		<footer class="footer mt-96 py-72">
+			<div class="container">
+					<div class="flex-row-top">
+						<div class="footer-left">
+							<img src="img/icons/vamadi-footer.png" alt="">
+							<p>Использование сайта означает согласие с пользовательским соглашением и политикой конфиденциальности. При использовании материалов активная ссылка на источник обязательна</p>
+							<div class="footer-span-flex-wrapper">
+							<div class="footer-span-flex">
+								<img src="img/icons/phone.svg" alt="">
+								<span class="footer-info-span"><a href="tel:+7916777777">+7 (916) 77-77-77</a></span>
+							</div>
+							<div class="footer-span-flex">
+								<img src="img/icons/mail.svg" alt="">
+								<span class="footer-info-span"><a href="mailto:vamadi@gmail.com">vamadi@gmail.com</a></span>
+							</div>
+							</div>
+						</div>
+						<div class="footer-right">
+							<div>
+								<span class="footer-title-menu">Города</span>
+								<ul>
+									<li><a href="#">Минск</a></li>
+									<li><a href="#">Москва</a></li>
+									<li><a href="#">Краснодар</a></li>
+									<li><a href="#">Сочи</a></li>
+								</ul>
+							</div>
+							<div>
+								<span class="footer-title-menu">Каталог</span>
+								<ul>
+									<li><a href="#">Б/У Запчасти</a></li>
+									<li><a href="#">Новые запчасти</a></li>
+									<li><a href="#">Шины</a></li>
+									<li><a href="#">Диски</a></li>
+									<li><a href="#">Аккумуляторы</a></li>
+									<li><a href="#">Аксессуары</a></li>
+								</ul>
+							</div>
+							<div>
+								<span class="footer-title-menu">Информация</span>
+								<ul>
+									<li><a href="#">О проекте</a></li>
+									<li><a href="#">Магазины</a></li>
+									<li><a href="#">Реклама</a></li>
+									<li><a href="#">Размещение</a></li>
+									<li><a href="#">Помощь</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+		</footer>
+		<footer class="subfooter py-20">
+			<div class="container">
+				<div class="subfooter-flex">
+					<div class="subfooter-text-mobile">
+						<p>© ООО "VAMADI", УНП 690568802, 12.09.2020 <a href="#">info@vamadi.by</a></p>
+						<p>
+							<a href="#">Пользовательское соглашение</a>
+							<a href="#">Политика конфиденциальности</a>
+						</p>
+					</div>
+					<div class="subfooter-logos-mobile">
+						<img src="img/payment1.png" alt="">
+						<img src="img/payment2.png" alt="" class="ml-16">
+						<img src="img/payment3.png" alt="" class="ml-16">
+						<img src="img/payment4.png" alt="" class="ml-16">
+					</div>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
