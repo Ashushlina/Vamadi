@@ -689,7 +689,7 @@ h2{
   }
   .review {
      flex-basis: 49%;
-     margin-bottom: 2%;
+     margin-bottom: 4%;
   }
 }
 
@@ -810,6 +810,9 @@ h2{
     margin-top: 10%;
     margin-bottom: 5%;
   }
+  .outline-button {
+  	margin-top: 16px;
+  }
   .offer-info {
     padding-left: 26px;
   }
@@ -861,6 +864,23 @@ h2{
   }
   .mobile-all-btn {
     display: inline-block;
+    display: flex;
+    justify-content: center;
+  }
+  .new-arrivals-mobile-cats {
+  	margin-top: 16px;
+  	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	  span {
+  	line-height: 1.6;
+  	}
+  }
+  h2 {
+  	text-align: center;
+  }
+  .review:last-child {
+  	margin-bottom: 0;
   }
 }
 

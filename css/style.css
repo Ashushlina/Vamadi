@@ -912,7 +912,7 @@ h2 {
     -webkit-flex-basis: 49%;
     -ms-flex-preferred-size: 49%;
     flex-basis: 49%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
   }
 }
 
@@ -1070,6 +1070,9 @@ h2 {
     margin-top: 10%;
     margin-bottom: 5%;
   }
+  .outline-button {
+    margin-top: 16px;
+  }
   .offer-info {
     padding-left: 26px;
   }
@@ -1140,5 +1143,36 @@ h2 {
   }
   .mobile-all-btn {
     display: inline-block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .new-arrivals-mobile-cats {
+    margin-top: 16px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .new-arrivals-mobile-cats span {
+    line-height: 1.6;
+  }
+  h2 {
+    text-align: center;
+  }
+  .review:last-child {
+    margin-bottom: 0;
   }
 }
